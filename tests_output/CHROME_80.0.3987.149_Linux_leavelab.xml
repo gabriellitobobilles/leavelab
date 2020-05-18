@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="leavelab"
+    errors="1" failures="0" hostname="" id="" package="leavelab" skipped="3"
+    tests="1" time="0.01500" timestamp="">
+  
+    <testcase name="Creating a Company" classname="leavelab" time="0.01500" assertions="0">
+      <error message="Cannot read property &#39;includes&#39; of null" type="error">TypeError: Cannot read property &#39;includes&#39; of null
+    at Function.relativeUrl (/home/gbobilles/Desktop/nightwatch/node_modules/nightwatch/lib/utils/index.js:453:18)
+    at Page.&lt;anonymous&gt; (/home/gbobilles/Desktop/nightwatch/node_modules/nightwatch/lib/page-object/index.js:114:17)
+    at Object.Creating a Company (/home/gbobilles/Desktop/nightwatch/tests/leavelab.js:9:14)
+    at Context.call (/home/gbobilles/Desktop/nightwatch/node_modules/nightwatch/lib/testsuite/context.js:379:35)
+    at TestCase.run (/home/gbobilles/Desktop/nightwatch/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
+    at Runnable.handleRunnable [as __runFn] (/home/gbobilles/Desktop/nightwatch/node_modules/nightwatch/lib/testsuite/index.js:374:80)
+    at Runnable.run (/home/gbobilles/Desktop/nightwatch/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/home/gbobilles/Desktop/nightwatch/node_modules/nightwatch/lib/testsuite/index.js:441:33)
+    at TestSuite.handleRunnable (/home/gbobilles/Desktop/nightwatch/node_modules/nightwatch/lib/testsuite/index.js:446:18)
+    at createSession.then.then._ (/home/gbobilles/Desktop/nightwatch/node_modules/nightwatch/lib/testsuite/index.js:374:21)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: Cannot read property &#39;includes&#39; of null[0m
+[0;90m       at Object.Creating a Company (/home/gbobilles/Desktop/nightwatch/tests/leavelab.js:9:14)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Create department" classname="leavelab">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Create Employee" classname="leavelab">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Create Leave Request" classname="leavelab">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

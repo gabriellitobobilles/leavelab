@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="rock"
+    errors="0" failures="0" hostname="" id="" package="rock" skipped="0"
+    tests="2" time="114.2" timestamp="">
+  
+    <testcase name="weekly-floor-report" classname="rock" time="78.05" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Start New weekly-floor-report" classname="rock" time="36.19" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

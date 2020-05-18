@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="leavelab"
+    errors="1" failures="1" hostname="" id="" package="leavelab" skipped="0"
+    tests="1" time="7.926" timestamp="">
+  
+    <testcase name="Creating a Company" classname="leavelab" time="7.926" assertions="1">  <failure message="Testing if element [0;33m&lt;Element [name=@continueBtn]&gt;[0m is present in 5000ms - expected [0;32m&#34;is present&#34;[0m but got: [0;31m&#34;not present&#34;[0m [0;90m(5195ms)[0m">    at Page.CreatCompany (/home/gbobilles/Desktop/nightwatch/page-objects/LeaveLabPO.js:187:29)
+    at Object.Creating a Company (/home/gbobilles/Desktop/nightwatch/tests/leavelab.js:10:14)</failure>
+
+    
+      <failure message="    at Page.CreatCompany (/home/gbobilles/Desktop/nightwatch/page-objects/LeaveLabPO.js:187:29)">    at Object.Creating a Company (/home/gbobilles/Desktop/nightwatch/tests/leavelab.js:10:14)</failure>
+      <error message="Error while running &#34;elementPresent&#34; command: Testing if element [0;33m&lt;Element [name=@continueBtn]&gt;[0m is present in 5000ms - expected [0;32m&#34;is present&#34;[0m but got: [0;31m&#34;not present&#34;[0m [0;90m(5195ms)[0m" type="error">    at Object.Creating a Company (/home/gbobilles/Desktop/nightwatch/tests/leavelab.js:10:14)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError [ERR_UNESCAPED_CHARACTERS]: An error occurred while running .click() command on &lt;Element [name=@registerNewBtn]&gt;: [0m
+[0;90m       at new ClientRequest (_http_client.js:115:13)
+       at Object.request (http.js:42:10)
+       at new Promise (&lt;anonymous&gt;)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="2">
+
+  <testsuite name="rock"
+    errors="1" failures="1" hostname="" id="" package="rock" skipped="0"
+    tests="2" time="149.1" timestamp="">
+  
+    <testcase name="weekly-floor-report" classname="rock" time="133.6" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Start New weekly-floor-report" classname="rock" time="15.54" assertions="1">  <failure message="Testing if element [0;33m&lt;Element [name=@selectClientOption]&gt;[0m is present in 5000ms - expected [0;32m&#34;is present&#34;[0m but got: [0;31m&#34;not present&#34;[0m [0;90m(5269ms)[0m">    at Page.Start_New_weekly_floor_report (/home/gbobilles/Desktop/nightwatch/page-objects/RockPO.js:371:25)
+    at Object.Start New weekly-floor-report (/home/gbobilles/Desktop/nightwatch/tests/rock.js:24:12)</failure>
+
+    
+      <failure message="    at Page.Start_New_weekly_floor_report (/home/gbobilles/Desktop/nightwatch/page-objects/RockPO.js:371:25)">    at Object.Start New weekly-floor-report (/home/gbobilles/Desktop/nightwatch/tests/rock.js:24:12)</failure>
+      <error message="Error while running &#34;elementPresent&#34; command: Testing if element [0;33m&lt;Element [name=@selectClientOption]&gt;[0m is present in 5000ms - expected [0;32m&#34;is present&#34;[0m but got: [0;31m&#34;not present&#34;[0m [0;90m(5269ms)[0m" type="error">    at Object.Start New weekly-floor-report (/home/gbobilles/Desktop/nightwatch/tests/rock.js:24:12)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@report_button]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;e293f528a3fb4992b99200d59b7245cd&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at process._tickCallback (internal/process/next_tick.js:68:7)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

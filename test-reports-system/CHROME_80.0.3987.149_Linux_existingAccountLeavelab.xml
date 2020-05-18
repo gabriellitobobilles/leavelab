@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="existingAccountLeavelab"
+    errors="0" failures="0" hostname="" id="" package="existingAccountLeavelab" skipped="0"
+    tests="1" time="46.74" timestamp="">
+  
+    <testcase name="Request a leave but Denied using existing account" classname="existingAccountLeavelab" time="46.74" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
